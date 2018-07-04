@@ -43,7 +43,27 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="OrderingApp_html\" />
+    <Folder Include="OrderingApp_html\assets\img\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="OrderingApp_html\assets\css\images\ui-icons_444444_256x240.png" />
+    <Content Include="OrderingApp_html\assets\css\images\ui-icons_555555_256x240.png" />
+    <Content Include="OrderingApp_html\assets\css\images\ui-icons_777620_256x240.png" />
+    <Content Include="OrderingApp_html\assets\css\images\ui-icons_777777_256x240.png" />
+    <Content Include="OrderingApp_html\assets\css\images\ui-icons_cc0000_256x240.png" />
+    <Content Include="OrderingApp_html\assets\css\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="OrderingApp_html\assets\css\jquery-ui.min.css" />
+    <Content Include="OrderingApp_html\assets\css\login.css" />
+    <Content Include="OrderingApp_html\assets\css\site-test.css" />
+    <Content Include="OrderingApp_html\assets\css\site.css" />
+    <Content Include="OrderingApp_html\assets\js\Angular.js" />
+    <Content Include="OrderingApp_html\assets\js\controlattributes.js" />
+    <Content Include="OrderingApp_html\assets\js\Dashboard.js" />
+    <Content Include="OrderingApp_html\assets\js\inputmask.js" />
+    <Content Include="OrderingApp_html\assets\js\jquery-ui.min.js" />
+    <Content Include="OrderingApp_html\assets\js\site.js" />
+    <Content Include="OrderingApp_html\confirm.html" />
+    <Content Include="OrderingApp_html\index.html" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
