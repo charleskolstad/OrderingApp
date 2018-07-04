@@ -117,11 +117,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\CSS\admin.css" />
+    <Content Include="Assets\CSS\login.css" />
+    <Content Include="Assets\JS\angular\AdminModule.js" />
+    <Content Include="Assets\JS\angular\ProfileCtrl.js" />
+    <Content Include="Assets\JS\angular\UsersCtrl.js" />
+    <Content Include="Assets\JS\crop.js" />
+    <Content Include="Assets\JS\SideNav.js" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\AdminController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -133,6 +141,12 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Views\Admin\Index.cshtml" />
+    <Content Include="Views\Admin\Login.cshtml" />
+    <Content Include="Views\Admin\RecoverPassword.cshtml" />
+    <Content Include="Views\Admin\ManageAccount.cshtml" />
+    <Content Include="Views\Admin\AllUsers.cshtml" />
+    <Content Include="Views\Admin\UserProfile.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -140,8 +154,16 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Controllers\" />
+    <ProjectReference Include="..\OrderingApp_Core\OrderingApp_Core.csproj">
+      <Project>{600ab693-c432-428a-8065-ea9f26be4fe1}</Project>
+      <Name>OrderingApp_Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OrderingApp_Model\OrderingApp_Model.csproj">
+      <Project>{735e24aa-91b8-4e13-b539-7c5faf0b8c4f}</Project>
+      <Name>OrderingApp_Model</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
