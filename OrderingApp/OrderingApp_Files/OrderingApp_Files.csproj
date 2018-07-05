@@ -46,6 +46,18 @@
     <Folder Include="OrderingApp_html\assets\img\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="OrderingApp_html\admin\allusers.html" />
+    <Content Include="OrderingApp_html\admin\Assets\CSS\admin.css" />
+    <Content Include="OrderingApp_html\admin\Assets\CSS\login.css" />
+    <Content Include="OrderingApp_html\admin\Assets\IMG\_MG_mobile.jpg" />
+    <Content Include="OrderingApp_html\admin\Assets\JS\angular\AdminModule.js" />
+    <Content Include="OrderingApp_html\admin\Assets\JS\angular\UsersCtrl.js" />
+    <Content Include="OrderingApp_html\admin\Assets\JS\SideNav.js" />
+    <Content Include="OrderingApp_html\admin\categories.html" />
+    <Content Include="OrderingApp_html\admin\index.html" />
+    <Content Include="OrderingApp_html\admin\items.html" />
+    <Content Include="OrderingApp_html\admin\orders.html" />
+    <Content Include="OrderingApp_html\admin\profile.html" />
     <Content Include="OrderingApp_html\assets\css\images\ui-icons_444444_256x240.png" />
     <Content Include="OrderingApp_html\assets\css\images\ui-icons_555555_256x240.png" />
     <Content Include="OrderingApp_html\assets\css\images\ui-icons_777620_256x240.png" />
